@@ -1,3 +1,7 @@
+body {
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif
+}
+
 #yt_logo {
 
     font-size: 100%;
@@ -5,6 +9,37 @@
     width: 100px;
     height: 25px;
     background-size: 100px 30px;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+}
+
+#country{
+    background-color: transparent;
+    color: rgb(118, 118, 118);
+    font-size: 11px;
+    font-weight: normal;
+    position: absolute;
+    text-decoration: none;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+}
+
+#upload {
+    font-size: 100%;
+    background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+    background-color: transparent;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    background-position: -125px -314px;
     background-repeat: no-repeat;
     border-width: 0px;
     border-style: none;
