@@ -4,14 +4,21 @@ body {
 
 .nav-bar {
   font-size: 100%;
-  background-color: rgb(255, 255, 255);
-  min-width: 0px;
-  position: relative;
-  border-width: 0px 0px 1px;
-  border-style: none none solid;
+  background-color: transparent;
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  left: 0px;
+  z-index: 999999999;
+  -moz-transform: translateZ(0px);
+  -ms-transform: translateZ(0px);
+  -o-transform: translateZ(0px);
+  -webkit-transform: translateZ(0px);
+  border-width: 0px;
+  border-style: none;
   margin: 0px;
-  padding: 7px 30px 8px;
-  border-color: white white rgb(232, 232, 232);
+  padding: 0px;
+  border-color: white;
 }
 
 #yt_logo {
