@@ -1,0 +1,14 @@
+#yt_logo {
+
+    font-size: 100%;
+    display: inline-block;
+    width: 100px;
+    height: 25px;
+    background-size: 100px 30px;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+}
