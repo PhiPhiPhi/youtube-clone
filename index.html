@@ -1,38 +1,66 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons"rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-      
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+
     <title>Youtube clone</title>
-</head>
-<body>
-    <nav class="nav-bar">
-        
-        <div id="logo-group"> 
-            <a href="#"><i class="material-icons">menu</i></a>
-            <a href="#">
-                <img id="yt_logo" src="img/yt_logo.png" alt="Youtube Logo">
-                <span id="country">NL</span> <!--Remember to add the Google Noto font -->
-            </a>
+  </head>
+  <body>
+    <div class="container">
+      <nav class="nav-bar">
+        <div id="logo-group">
+          <a href="#"><i class="material-icons">menu</i></a>
+          <a href="#">
+            <img id="yt_logo" src="img/yt_logo.png" alt="Youtube Logo" />
+            <span id="country">NL</span>
+            <!--Remember to add the Google Noto font -->
+          </a>
         </div>
         <form action="" id="search">
-            <div id="search-container">
-                    <input type="text" name="search" id="search-input" placeholder="Search">
-
-            </div>
-            <span id="separator"></span>
-            <button id="search-btn"> <a href="#"><i class="material-icons">search</i></a> </button>
+          <div id="search-container">
+            <input
+              type="text"
+              name="search"
+              id="search-input"
+              placeholder="Search"
+            />
+          </div>
+          <span id="separator"></span>
+          <button id="search-btn">
+            <a href="#"><i class="material-icons">search</i></a>
+          </button>
         </form>
 
         <div id="left-nav">
-        <span id="upload"></span>  
-        <button type="submit" id="sign-in-btn">Sign in</button> 
+          <span id="upload"></span>
+          <button type="submit" id="sign-in-btn">Sign in</button>
+        </div>
+      </nav>
+      <div id="notice-container">
+        <div id="notice-header">
+          <span id="user-icon"></span>
+          <p>Choose your language.</p>
+          <span id="close-icon"></span>
+        </div>
+        <div>
+          <p>
+            You're viewing YouTube in English (US). You can change this
+            preference below.
+          </p>
+          <a href="#">Learn more</a>
+        </div>
+      </div>
     </div>
-    </nav>
-</body>
+  </body>
 </html>
