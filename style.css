@@ -1,5 +1,12 @@
+a {
+  text-decoration: none;
+  color: rgb(22, 122, 198);
+}
 body {
   font-family: "YouTube Noto", Roboto, arial, sans-serif;
+}
+#language {
+  font-weight: bold;
 }
 
 .container {
@@ -279,8 +286,32 @@ body {
   border-color: white;
 }
 
-#notice-header {
+#notice-footer, #notice-header {
+  margin: 0 auto;
+  width: 80%;
   display: flex;
   flex-direction: row;
-  align-items: flex-start;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#notice-left {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+#notice-left > p {
+  margin-left: 20px;
+  color: #fff;
+}
+#notice-footer >p {
+  color: hsl(0, 0%, 6.7%);
+  padding: 0 10px;
+}
+#notice-footer {
+  background-color: #fff;
+}
+
+#learn_more {
+  padding: 0 10px;
 }
