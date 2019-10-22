@@ -12,15 +12,27 @@
 </head>
 <body>
     <nav class="nav-bar">
-        <a href="#"><i class="material-icons">menu</i></a>
-        <a href="#"><img id="yt_logo" src="img/yt_logo.png" alt="Youtube Logo"></a>
-        <span id="country">NL</span> <!--Remember to add the Google Noto font -->
+        
+        <div id="logo-group"> 
+            <a href="#"><i class="material-icons">menu</i></a>
+            <a href="#">
+                <img id="yt_logo" src="img/yt_logo.png" alt="Youtube Logo">
+                <span id="country">NL</span> <!--Remember to add the Google Noto font -->
+            </a>
+        </div>
         <form action="" id="search">
-            <input type="text" name="search" placeholder="Search">
-            <button> <a href="#"><i class="material-icons">search</i></a> </button>
+            <div id="search-container">
+                    <input type="text" name="search" id="search-input" placeholder="Search">
+
+            </div>
+            <span id="separator"></span>
+            <button id="search-btn"> <a href="#"><i class="material-icons">search</i></a> </button>
         </form>
+
+        <div id="left-nav">
         <span id="upload"></span>  
         <button type="submit" id="sign-in-btn">Sign in</button> 
+    </div>
     </nav>
 </body>
 </html>
