@@ -343,8 +343,11 @@ body {
 }
 #content {
   display: flex;
+  flex-direction: column;
+  
   width: 60%;
   margin: 0 30px 0 0;
+
 }
 #suggested-videos {
   display: flex;
@@ -541,4 +544,304 @@ body {
     justify-content: space-between;
     
 
+}
+
+#video_actions {
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
+  box-sizing: border-box;
+  padding: 15px 15px 15px 15px;
+
+}
+
+#subscribe_button {
+  display: flex;
+  flex-direction: row;
+  font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    cursor: pointer;
+    border-top-left-radius: 2px 2px;
+    border-top-right-radius: 2px 2px;
+    border-bottom-right-radius: 2px 2px;
+    border-bottom-left-radius: 2px 2px;
+    box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
+    color: rgb(254, 254, 254);
+    max-width: 100%;
+    height: 24px;
+    background-color: rgb(255, 0, 0);
+    outline: invert none 0px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 0px;
+    padding: 0px 8px 0px 5.5px;
+    border-color: transparent;
+}
+
+#subscribe_icon {
+  display: inline-block;
+  vertical-align: middle;
+  background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+  background-color: transparent;
+  width: 16px;
+  height: 12px;
+  margin-right: 6px;
+  background-position: -48px -775px;
+  background-repeat: no-repeat;
+}
+
+#subscribe_text_container {
+  background-color: transparent;
+  display: inline-block;
+  max-width: 100%;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  white-space: nowrap;
+  word-wrap: normal;
+  text-overflow: ellipsis;
+  font-size: 12px;
+  font-weight: normal;
+  vertical-align: middle;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
+}
+
+#subscribe_text {
+  font-size: 100%;
+    background-color: transparent;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    display: inline;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+}
+
+#subscribers_number {
+  background-color: rgb(250, 250, 250);
+  vertical-align: middle;
+  border-top-left-radius: 0px 0px;
+  border-top-right-radius: 2px 2px;
+  border-bottom-right-radius: 2px 2px;
+  border-bottom-left-radius: 0px 0px;
+  color: rgb(115, 115, 115);
+  font-size: 11px;
+  text-align: center;
+  height: 22px;
+  line-height: 24px;
+  display: inline-block;
+  border-width: 1px 1px 1px medium;
+  border-style: solid solid solid none;
+  margin: 0px 0px 0px -2px;
+  padding: 0px 6px 0px 7px;
+  border-color: rgb(204, 204, 204) rgb(204, 204, 204) rgb(204, 204, 204) white;
+}
+
+#video_channel_name {
+  font-size: 14px;
+    background-color: transparent;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    height: 22px;
+    color: rgb(51, 51, 51);
+    font-weight: 500;
+    max-width: 315px;
+    overflow-x: hidden;
+    overflow-y: hidden;
+    text-overflow: ellipsis;
+    vertical-align: top;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+}
+#video_channel_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+
+}
+#video_channel_info_left {
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 0 15px;
+
+}
+
+#channel_msize_logo {
+  height: 48px;
+    width: 48px;
+    background-color: transparent;
+    font-size: 13px;
+    display: inline-block;
+    vertical-align: middle;
+    outline: invert none medium;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+}
+
+#video_main_title {
+  direction: ltr;
+    font-size: 100%;
+    background-color: transparent;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0 0 20px 0;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: normal;
+    word-wrap: break-word;
+    border-width: 0px;
+    border-style: none;
+    border-color: white;
+}
+#video_actions_main {
+  display: flex;
+  flex-direction:column;
+  padding: 5px 0 10px 0px;
+}
+
+#video_actions_main:after {
+  position: absolute;
+
+  content: ""; 
+  display: block; 
+  margin: 0 auto; 
+  width: 58%; 
+  padding-top: 110px; 
+  border-bottom: 1px solid #ccc;
+}
+
+#video_main_info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+#video_views {
+  background-color: transparent;
+    
+    font-size: 22px;
+    color: rgb(102, 102, 102);
+    white-space: nowrap;
+    border-width: 0px;
+    border-style: none;
+    
+    
+    border-color: white;
+}
+
+#video_views:after {
+  position: absolute;
+  z-index: 999;
+  content: ""; 
+  display: block; 
+  margin: 0 0px 0 -30px; 
+  width: 8%; 
+  padding-top: 18px; 
+  border-bottom: 2px solid  rgb(22, 122, 198);
+  font-size: 100%;
+}
+
+#video_actions_footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+#add_to_container, #share_container, #more_container, #like_container, #dislike_container {
+  font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    height: 28px;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    box-shadow: none;
+    opacity: 0.5;
+    cursor: pointer;
+    display: inline-block;
+    border-top-left-radius: 0px 0px;
+    border-top-right-radius: 0px 0px;
+    border-bottom-right-radius: 0px 0px;
+    border-bottom-left-radius: 0px 0px;
+    background-image: none;
+    background-color: transparent;
+    outline: invert none 0px;
+    border-width: medium;
+    border-style: none;
+    margin: 0px -1px 0px 0px;
+    padding: 0px 10px;
+    border-color: white;
+}
+
+#add_to_icon {
+    background-position: -151px -725px;
+}
+
+#share_icon {
+    background-position: -267px -824px;
+}
+
+#more_icon {
+    background-position: -154px -860px;
+}
+#like_icon {
+  background-position: 0px -867px;
+}
+#dislike_icon {
+  background-position: -174px -804px;
+}
+.video_actions_footer_icon {
+  background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 6px;
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  background-repeat: no-repeat;
+}
+
+#add_to_text, #more_text, #share_text, #like_text, #dislike_text {
+  font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    background-color: transparent;
+    vertical-align: middle;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
+    cursor: pointer;
+    line-height: normal;
+    font-weight: 500;
 }
