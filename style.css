@@ -545,8 +545,16 @@ body {
     
 
 }
-
 #video_actions {
+
+}
+
+#video_description{
+
+  margin: 20px 0;
+
+}
+.video_feature_box {
   display: flex;
   flex-direction: column;
   background-color: rgb(255, 255, 255);
@@ -554,6 +562,23 @@ body {
   box-sizing: border-box;
   padding: 15px 15px 15px 15px;
 
+}
+
+#loading_icon {
+  font-size: 100%;
+    background-image: url(data:image/gif;base64,R0lGODlhFAAUAJEDAMzMzLOzs39/f////yH/C05FVFNDQVBFMi4wA…Bs3yeNYAkWACH5BAUKAAMALAIABAAGAAwAAAIXnCU2iMfaRghqTmMp1moAoHyfIYIkWAAAOw==);
+    background-color: transparent;
+    width: 20px;
+    height: 20px;
+    vertical-align: middle;
+    display: inline-block;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-width: 0px;
+    border-style: none;
+    margin: 0px;
+    padding: 0px;
+    border-color: white;
 }
 
 #subscribe_button {
@@ -852,6 +877,8 @@ body {
 
 #video_description {
 
+
+
 }
 
 #video_description_main {
@@ -866,10 +893,58 @@ body {
   
 }
 
+#comments_loading {
+  height: 200px;
+}
+#loading_text {
+  font-size: 100%;
+    background-color: transparent;
+    vertical-align: middle;
+    border-width: 0px;
+    border-style: none;
+    margin: 0 auto;
+    padding: 70px;
+    border-color: white;
+}
+
+#loading_icon {}
+
 #show_more_container {
 
+  background-color: transparent;
+    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
+    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
+    height: 28px;
+    font-weight: 500;
+    font-size: 11px;
+    text-decoration: none;
+    white-space: nowrap;
+    word-wrap: normal;
+    line-height: normal;
+    vertical-align: middle;
+    border-top-left-radius: 2px 2px;
+    border-top-right-radius: 2px 2px;
+    border-bottom-right-radius: 2px 2px;
+    border-bottom-left-radius: 2px 2px;
+    cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    color: rgb(118, 118, 118);
+    box-shadow: none;
+    display: block;
+    outline: invert none 0px;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px 0px -15px;
+    padding: 0px 10px;
+    border-color: rgb(226, 226, 226) transparent transparent;
 }
 
 #show_more_text {
+
+  cursor: pointer;
+    width: 100%;
+    text-transform: uppercase;
+    color: rgb(118, 118, 118);
 
 }
