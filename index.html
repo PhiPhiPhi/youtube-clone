@@ -12,12 +12,13 @@
       href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css" />
 
     <title>Youtube clone</title>
   </head>
   <body>
     <div class="container">
+      <!-- Navigation bar -->
       <nav class="nav-bar">
         <div id="logo-group">
           <a href="#"><i class="material-icons">menu</i></a>
@@ -46,6 +47,8 @@
           <button type="submit" id="sign-in-btn">Sign in</button>
         </div>
       </nav>
+
+      <!-- Notice Container -->
       <div id="notice-container">
         <div id="notice-header">
           <div id="notice-left">
@@ -63,7 +66,10 @@
           <a id="learn_more" href="#">Learn more</a>
         </div>
       </div>
+
+      <!-- Main Conatiner -->
       <div id="main_content">
+        <!-- Main video frame -->
         <div id="content">
           <div id="main_video">
             <iframe
@@ -75,6 +81,7 @@
             ></iframe>
           </div>
 
+          <!-- Main video title and statistics -->
           <div id="video_actions" class="video_feature_box">
             <div id="video_actions_main">
               <p id="video_main_title">
@@ -104,6 +111,8 @@
                 <p id="video_views">50,016 views</p>
               </div>
             </div>
+
+            <!-- Main video actions and social icons -->
             <div id="video_actions_footer">
               <div id="video_actions_left">
                 <button type="button" id="add_to_container">
@@ -140,8 +149,11 @@
               </div>
             </div>
           </div>
-
-          <div class="video_description video_feature_box" id="video_description">
+          <div
+            class="video_description video_feature_box"
+            id="video_description"
+          >
+            <!-- Main video description -->
             <article id="video_description_main">
               <p id="video_description_title">
                 Published on Feb 27, 2014
@@ -170,12 +182,13 @@
           </div>
 
           <div id="comments_loading" class="video_feature_box">
-            
-            <span id="loading_text"><span id="loading_icon">  </span> Loading...</span>
-
+            <span id="loading_text"
+              ><span id="loading_icon"> </span> Loading...</span
+            >
           </div>
         </div>
 
+        <!-- Recommended videos section -->
         <aside id="suggested-videos">
           <div id="suggested_vid_header">
             <p>Up next</p>
@@ -461,8 +474,6 @@
           </div>
         </aside>
       </div>
-
-      <footer></footer>
     </div>
   </body>
 </html>

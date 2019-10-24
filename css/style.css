@@ -222,17 +222,11 @@ body {
   flex-direction: column;
   font-size: 100%;
   background-color: rgb(22, 122, 198);
-  /* box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  -ms-box-sizing: border-box; */
-  /* min-width: 1003px; */
   width: 100%;
-  /* max-width: 100%; */
-  /* border-width: 0px;
-  border-style: none; */
   margin-top: 70px;
   padding: 10px;
 }
+
 #user-icon {
   font-size: 100%;
   display: inline-block;
@@ -289,7 +283,8 @@ body {
   border-color: white;
 }
 
-#notice-footer, #notice-header {
+#notice-footer,
+#notice-header {
   margin: 0 auto;
   width: 80%;
   display: flex;
@@ -307,7 +302,7 @@ body {
   margin-left: 20px;
   color: #fff;
 }
-#notice-footer >p {
+#notice-footer > p {
   color: hsl(0, 0%, 6.7%);
   padding: 0 10px;
 }
@@ -321,33 +316,32 @@ body {
 
 #suggested-videos {
   font-size: 100%;
-    background-color: rgb(255, 255, 255);
-    box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    min-height: 520px;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px 0px 10px;
-    padding: 15px 15px 15px 5px;
-    border-color: white;
+  background-color: rgb(255, 255, 255);
+  box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  min-height: 520px;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px 0px 10px;
+  padding: 15px 15px 15px 5px;
+  border-color: white;
 }
 
-#main_content{
+#main_content {
   display: flex;
-    flex-direction: row;
-    width: 100%;
-    margin: 40px auto;
-    justify-content: center;
+  flex-direction: row;
+  width: 100%;
+  margin: 40px auto;
+  justify-content: center;
 }
 #content {
   display: flex;
   flex-direction: column;
-  
+
   width: 60%;
   margin: 0 30px 0 0;
-
 }
 #suggested-videos {
   display: flex;
@@ -362,81 +356,77 @@ body {
 }
 
 #main_frame {
-  width : 100%;
-  height : 100%;
+  width: 100%;
+  height: 100%;
 }
 
 #suggested_vid_container {
-
   display: flex;
   flex-direction: row;
   padding: 20px 20px 10px 20px;
-
 }
 
-#suggested_vid_frame{
+#suggested_vid_frame {
   height: 94px;
   width: 50%;
   padding: 0 10px 0 0;
-
 }
 
-#suggested_vid_desc{
+#suggested_vid_desc {
   display: flex;
   flex-direction: column;
-
 }
 
 #suggested_vid_title {
   color: rgb(51, 51, 51);
-    line-height: 1.2;
-    max-height: 3.6em;
-    font-size: 14px;
-    font-weight: 500;
-    border-style: none;
-    margin: 0px 0px 2px;
-    padding: 0px;
-    border-color: white;
+  line-height: 1.2;
+  max-height: 3.6em;
+  font-size: 14px;
+  font-weight: 500;
+  border-style: none;
+  margin: 0px 0px 2px;
+  padding: 0px;
+  border-color: white;
 }
 
-#suggested_vid_channel, #suggested_vid_views {
+#suggested_vid_channel,
+#suggested_vid_views {
   height: 1.4em;
-    white-space: nowrap;
-    color: rgb(118, 118, 118);
-    font-size: 11px;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  white-space: nowrap;
+  color: rgb(118, 118, 118);
+  font-size: 11px;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 
 #autoplay_icon {
   font-size: 100%;
-    display: inline-block;
-    box-shadow: none;
-    opacity: 0.5;
-    cursor: pointer;
-    background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
-    background-color: transparent;
-    width: 16px;
-    height: 16px;
-    background-position: -56px -511px;
-    background-repeat: no-repeat;
-    border-width: 0px;
-    border-style: none;
-    margin: -1px 4px 0px;
-    padding: 0px;
-    border-color: white;
+  display: inline-block;
+  box-shadow: none;
+  opacity: 0.5;
+  cursor: pointer;
+  background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+  background-color: transparent;
+  width: 16px;
+  height: 16px;
+  background-position: -56px -511px;
+  background-repeat: no-repeat;
+  border-width: 0px;
+  border-style: none;
+  margin: -1px 4px 0px;
+  padding: 0px;
+  border-color: white;
 }
 
 #suggested_vid_header {
   display: flex;
   flex-direction: row;
   align-items: center;
-    justify-content: space-between;
-    padding: 0 20px 0 20px;
-  
+  justify-content: space-between;
+  padding: 0 20px 0 20px;
 }
 
 #autoplay {
@@ -446,113 +436,103 @@ body {
 }
 
 .next_video {
-  
-
   padding: 20px 20px 20px 20px !important;
-  
-
 }
 
 .next_video:after {
   position: absolute;
 
-  content: ""; 
-  display: block; 
-  margin: 0 auto; 
-  width: 17%; 
-  padding-top: 114px; 
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 17%;
+  padding-top: 114px;
   border-bottom: 1px solid #ccc;
 }
 
 #autoplay-input {
   text-align: left;
-    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
-    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
-    font-size: 13px;
-    position: absolute;
-    width: 37px;
-    height: 15px;
-    opacity: 0;
-    margin: 0px;
+  font: normal normal normal 12px / normal "YouTube Noto", Roboto, arial,
+    sans-serif;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
+  font-size: 13px;
+  position: absolute;
+  width: 37px;
+  height: 15px;
+  opacity: 0;
+  margin: 0px;
 }
 
 #autoplay-checkbox {
   font-size: 100%;
-    display: inline-block;
-    height: 16px;
-    border-top-left-radius: 20px 20px;
-    border-top-right-radius: 20px 20px;
-    border-bottom-right-radius: 20px 20px;
-    border-bottom-left-radius: 20px 20px;
-    background-color: rgb(22, 122, 198);
-    border-width: 1px;
-    border-style: solid;
-    margin: 0px;
-    padding: 0px;
-    border-color: transparent;
+  display: inline-block;
+  height: 16px;
+  border-top-left-radius: 20px 20px;
+  border-top-right-radius: 20px 20px;
+  border-bottom-right-radius: 20px 20px;
+  border-bottom-left-radius: 20px 20px;
+  background-color: rgb(22, 122, 198);
+  border-width: 1px;
+  border-style: solid;
+  margin: 0px;
+  padding: 0px;
+  border-color: transparent;
 }
 
 #checked_icon_container {
-    font-size: 100%;
-    background-color: transparent;
-    display: inline-block;
-    height: 13px;
-    vertical-align: top;
-    text-align: center;
-    line-height: 13px;
-    width: 22px;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  font-size: 100%;
+  background-color: transparent;
+  display: inline-block;
+  height: 13px;
+  vertical-align: top;
+  text-align: center;
+  line-height: 13px;
+  width: 22px;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 
 #checked_icon {
   display: inline-block;
-    vertical-align: middle;
-    background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
-    background-color: transparent;
-    width: 10px;
-    height: 7px;
-    background-position: -53px -563px;
-    background-repeat: no-repeat;
-} 
+  vertical-align: middle;
+  background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
+  background-color: transparent;
+  width: 10px;
+  height: 7px;
+  background-position: -53px -563px;
+  background-repeat: no-repeat;
+}
 
 #checked_circle {
   font-size: 100%;
-    display: inline-block;
-    height: 16px;
-    vertical-align: top;
-    background-color: rgb(251, 251, 251);
-    width: 16px;
-    border-top-left-radius: 16px 16px;
-    border-top-right-radius: 16px 16px;
-    border-bottom-right-radius: 16px 16px;
-    border-bottom-left-radius: 16px 16px;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  display: inline-block;
+  height: 16px;
+  vertical-align: top;
+  background-color: rgb(251, 251, 251);
+  width: 16px;
+  border-top-left-radius: 16px 16px;
+  border-top-right-radius: 16px 16px;
+  border-bottom-right-radius: 16px 16px;
+  border-bottom-left-radius: 16px 16px;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 
 #suggested_vid_header_right {
   display: flex;
   flex-direction: row;
   align-items: center;
-    justify-content: space-between;
-    
-
-}
-#video_actions {
-
+  justify-content: space-between;
 }
 
-#video_description{
-
+#video_description {
   margin: 20px 0;
-
 }
 .video_feature_box {
   display: flex;
@@ -561,55 +541,55 @@ body {
   box-shadow: rgba(0, 0, 0, 0.0976562) 0px 1px 2px;
   box-sizing: border-box;
   padding: 15px 15px 15px 15px;
-
 }
 
 #loading_icon {
   font-size: 100%;
-    background-image: url(data:image/gif;base64,R0lGODlhFAAUAJEDAMzMzLOzs39/f////yH/C05FVFNDQVBFMi4wA…Bs3yeNYAkWACH5BAUKAAMALAIABAAGAAwAAAIXnCU2iMfaRghqTmMp1moAoHyfIYIkWAAAOw==);
-    background-color: transparent;
-    width: 20px;
-    height: 20px;
-    vertical-align: middle;
-    display: inline-block;
-    background-position: 50% 50%;
-    background-repeat: no-repeat;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  background-image: url(data:image/gif;base64,R0lGODlhFAAUAJEDAMzMzLOzs39/f////yH/C05FVFNDQVBFMi4wA…Bs3yeNYAkWACH5BAUKAAMALAIABAAGAAwAAAIXnCU2iMfaRghqTmMp1moAoHyfIYIkWAAAOw==);
+  background-color: transparent;
+  width: 20px;
+  height: 20px;
+  vertical-align: middle;
+  display: inline-block;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 
 #subscribe_button {
   display: flex;
   flex-direction: row;
-  font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
-    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
-    display: inline-block;
-    font-weight: 500;
-    font-size: 11px;
-    text-decoration: none;
-    white-space: nowrap;
-    word-wrap: normal;
-    line-height: normal;
-    vertical-align: middle;
-    cursor: pointer;
-    border-top-left-radius: 2px 2px;
-    border-top-right-radius: 2px 2px;
-    border-bottom-right-radius: 2px 2px;
-    border-bottom-left-radius: 2px 2px;
-    box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
-    color: rgb(254, 254, 254);
-    max-width: 100%;
-    height: 24px;
-    background-color: rgb(255, 0, 0);
-    outline: invert none 0px;
-    border-width: 1px;
-    border-style: solid;
-    margin: 0px;
-    padding: 0px 8px 0px 5.5px;
-    border-color: transparent;
+  font: normal normal normal 12px / normal "YouTube Noto", Roboto, arial,
+    sans-serif;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
+  display: inline-block;
+  font-weight: 500;
+  font-size: 11px;
+  text-decoration: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  line-height: normal;
+  vertical-align: middle;
+  cursor: pointer;
+  border-top-left-radius: 2px 2px;
+  border-top-right-radius: 2px 2px;
+  border-bottom-right-radius: 2px 2px;
+  border-bottom-left-radius: 2px 2px;
+  box-shadow: rgba(0, 0, 0, 0.046875) 0px 1px 0px;
+  color: rgb(254, 254, 254);
+  max-width: 100%;
+  height: 24px;
+  background-color: rgb(255, 0, 0);
+  outline: invert none 0px;
+  border-width: 1px;
+  border-style: solid;
+  margin: 0px;
+  padding: 0px 8px 0px 5.5px;
+  border-color: transparent;
 }
 
 #subscribe_icon {
@@ -645,16 +625,16 @@ body {
 
 #subscribe_text {
   font-size: 100%;
-    background-color: transparent;
-    box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    -ms-box-sizing: border-box;
-    display: inline;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  background-color: transparent;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  display: inline;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 
 #subscribers_number {
@@ -679,85 +659,82 @@ body {
 
 #video_channel_name {
   font-size: 14px;
-    background-color: transparent;
-    cursor: pointer;
-    text-decoration: none;
-    display: inline-block;
-    height: 22px;
-    color: rgb(51, 51, 51);
-    font-weight: 500;
-    max-width: 315px;
-    overflow-x: hidden;
-    overflow-y: hidden;
-    text-overflow: ellipsis;
-    vertical-align: top;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  background-color: transparent;
+  cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
+  height: 22px;
+  color: rgb(51, 51, 51);
+  font-weight: 500;
+  max-width: 315px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  text-overflow: ellipsis;
+  vertical-align: top;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 #video_channel_info {
   display: flex;
   flex-direction: row;
   justify-content: flex-start;
   align-items: center;
-
 }
 #video_channel_info_left {
-
   display: flex;
   flex-direction: column;
   align-items: flex-start;
   padding: 0 0 0 15px;
-
 }
 
 #channel_msize_logo {
   height: 48px;
-    width: 48px;
-    background-color: transparent;
-    font-size: 13px;
-    display: inline-block;
-    vertical-align: middle;
-    outline: invert none medium;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
+  width: 48px;
+  background-color: transparent;
+  font-size: 13px;
+  display: inline-block;
+  vertical-align: middle;
+  outline: invert none medium;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
 }
 
 #video_main_title {
   direction: ltr;
-    font-size: 100%;
-    background-color: transparent;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0 0 20px 0;
-    font-weight: normal;
-    font-size: 20px;
-    line-height: normal;
-    word-wrap: break-word;
-    border-width: 0px;
-    border-style: none;
-    border-color: white;
+  font-size: 100%;
+  background-color: transparent;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0 0 20px 0;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: normal;
+  word-wrap: break-word;
+  border-width: 0px;
+  border-style: none;
+  border-color: white;
 }
 #video_actions_main {
   display: flex;
-  flex-direction:column;
+  flex-direction: column;
   padding: 5px 0 10px 0px;
 }
 
 #video_actions_main:after {
   position: absolute;
 
-  content: ""; 
-  display: block; 
-  margin: 0 auto; 
-  width: 58%; 
-  padding-top: 110px; 
+  content: "";
+  display: block;
+  margin: 0 auto;
+  width: 58%;
+  padding-top: 110px;
   border-bottom: 1px solid #ccc;
 }
 
@@ -770,26 +747,25 @@ body {
 
 #video_views {
   background-color: transparent;
-    
-    font-size: 22px;
-    color: rgb(102, 102, 102);
-    white-space: nowrap;
-    border-width: 0px;
-    border-style: none;
-    
-    
-    border-color: white;
+
+  font-size: 22px;
+  color: rgb(102, 102, 102);
+  white-space: nowrap;
+  border-width: 0px;
+  border-style: none;
+
+  border-color: white;
 }
 
 #video_views:after {
   position: absolute;
   z-index: 999;
-  content: ""; 
-  display: block; 
-  margin: 0 0px 0 -30px; 
-  width: 8%; 
-  padding-top: 18px; 
-  border-bottom: 2px solid  rgb(22, 122, 198);
+  content: "";
+  display: block;
+  margin: 0 0px 0 -30px;
+  width: 8%;
+  padding-top: 18px;
+  border-bottom: 2px solid rgb(22, 122, 198);
   font-size: 100%;
 }
 
@@ -799,45 +775,50 @@ body {
   justify-content: space-between;
 }
 
-#add_to_container, #share_container, #more_container, #like_container, #dislike_container {
-  font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
-    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
-    height: 28px;
-    font-weight: 500;
-    font-size: 11px;
-    text-decoration: none;
-    white-space: nowrap;
-    word-wrap: normal;
-    line-height: normal;
-    vertical-align: middle;
-    box-shadow: none;
-    opacity: 0.5;
-    cursor: pointer;
-    display: inline-block;
-    border-top-left-radius: 0px 0px;
-    border-top-right-radius: 0px 0px;
-    border-bottom-right-radius: 0px 0px;
-    border-bottom-left-radius: 0px 0px;
-    background-image: none;
-    background-color: transparent;
-    outline: invert none 0px;
-    border-width: medium;
-    border-style: none;
-    margin: 0px -1px 0px 0px;
-    padding: 0px 10px;
-    border-color: white;
+#add_to_container,
+#share_container,
+#more_container,
+#like_container,
+#dislike_container {
+  font: normal normal normal 12px / normal "YouTube Noto", Roboto, arial,
+    sans-serif;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
+  height: 28px;
+  font-weight: 500;
+  font-size: 11px;
+  text-decoration: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  line-height: normal;
+  vertical-align: middle;
+  box-shadow: none;
+  opacity: 0.5;
+  cursor: pointer;
+  display: inline-block;
+  border-top-left-radius: 0px 0px;
+  border-top-right-radius: 0px 0px;
+  border-bottom-right-radius: 0px 0px;
+  border-bottom-left-radius: 0px 0px;
+  background-image: none;
+  background-color: transparent;
+  outline: invert none 0px;
+  border-width: medium;
+  border-style: none;
+  margin: 0px -1px 0px 0px;
+  padding: 0px 10px;
+  border-color: white;
 }
 
 #add_to_icon {
-    background-position: -151px -725px;
+  background-position: -151px -725px;
 }
 
 #share_icon {
-    background-position: -267px -824px;
+  background-position: -267px -824px;
 }
 
 #more_icon {
-    background-position: -154px -860px;
+  background-position: -154px -860px;
 }
 #like_icon {
   background-position: 0px -867px;
@@ -856,41 +837,24 @@ body {
   background-repeat: no-repeat;
 }
 
-#add_to_text, #more_text, #share_text, #like_text, #dislike_text {
-  font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
-    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
-    background-color: transparent;
-    vertical-align: middle;
-    border-width: 0px;
-    border-style: none;
-    margin: 0px;
-    padding: 0px;
-    border-color: white;
-    cursor: pointer;
-    line-height: normal;
-    font-weight: 500;
-}
-
-.video_description {
-
-}
-
-#video_description {
-
-
-
-}
-
-#video_description_main {
-
-}
-
-#video_description_title {
-
-}
-
-#video_description_info {
-  
+#add_to_text,
+#more_text,
+#share_text,
+#like_text,
+#dislike_text {
+  font: normal normal normal 12px / normal "YouTube Noto", Roboto, arial,
+    sans-serif;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
+  background-color: transparent;
+  vertical-align: middle;
+  border-width: 0px;
+  border-style: none;
+  margin: 0px;
+  padding: 0px;
+  border-color: white;
+  cursor: pointer;
+  line-height: normal;
+  font-weight: 500;
 }
 
 #comments_loading {
@@ -898,53 +862,49 @@ body {
 }
 #loading_text {
   font-size: 100%;
-    background-color: transparent;
-    vertical-align: middle;
-    border-width: 0px;
-    border-style: none;
-    margin: 0 auto;
-    padding: 70px;
-    border-color: white;
+  background-color: transparent;
+  vertical-align: middle;
+  border-width: 0px;
+  border-style: none;
+  margin: 0 auto;
+  padding: 70px;
+  border-color: white;
 }
 
-#loading_icon {}
-
 #show_more_container {
-
   background-color: transparent;
-    font: normal normal normal 12px/normal 'YouTube Noto', Roboto, arial, sans-serif;
-    font-family: 'YouTube Noto', Roboto, arial, sans-serif;
-    height: 28px;
-    font-weight: 500;
-    font-size: 11px;
-    text-decoration: none;
-    white-space: nowrap;
-    word-wrap: normal;
-    line-height: normal;
-    vertical-align: middle;
-    border-top-left-radius: 2px 2px;
-    border-top-right-radius: 2px 2px;
-    border-bottom-right-radius: 2px 2px;
-    border-bottom-left-radius: 2px 2px;
-    cursor: pointer;
-    width: 100%;
-    text-transform: uppercase;
-    color: rgb(118, 118, 118);
-    box-shadow: none;
-    display: block;
-    outline: invert none 0px;
-    border-width: 1px;
-    border-style: solid;
-    margin: 10px 0px -15px;
-    padding: 0px 10px;
-    border-color: rgb(226, 226, 226) transparent transparent;
+  font: normal normal normal 12px / normal "YouTube Noto", Roboto, arial,
+    sans-serif;
+  font-family: "YouTube Noto", Roboto, arial, sans-serif;
+  height: 28px;
+  font-weight: 500;
+  font-size: 11px;
+  text-decoration: none;
+  white-space: nowrap;
+  word-wrap: normal;
+  line-height: normal;
+  vertical-align: middle;
+  border-top-left-radius: 2px 2px;
+  border-top-right-radius: 2px 2px;
+  border-bottom-right-radius: 2px 2px;
+  border-bottom-left-radius: 2px 2px;
+  cursor: pointer;
+  width: 100%;
+  text-transform: uppercase;
+  color: rgb(118, 118, 118);
+  box-shadow: none;
+  display: block;
+  outline: invert none 0px;
+  border-width: 1px;
+  border-style: solid;
+  margin: 10px 0px -15px;
+  padding: 0px 10px;
+  border-color: rgb(226, 226, 226) transparent transparent;
 }
 
 #show_more_text {
-
   cursor: pointer;
-    width: 100%;
-    text-transform: uppercase;
-    color: rgb(118, 118, 118);
-
+  width: 100%;
+  text-transform: uppercase;
+  color: rgb(118, 118, 118);
 }
