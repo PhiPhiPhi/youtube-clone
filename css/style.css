@@ -68,11 +68,10 @@ body {
   padding: 0;
   border-color: white;
 }
+.navbar_left_icons {
 
-#upload {
   font-size: 100%;
   opacity: 0.5;
-  background-image: url(https://archive.fo/Bss88/73e7cc59947d2ad243d63294411f83990629f7fc.png);
   background-color: transparent;
   width: 24px;
   height: 24px;
@@ -85,6 +84,26 @@ body {
   margin: 0;
   padding: 0;
   border-color: white;
+
+}
+#notif {
+
+  opacity: 0.8;
+
+}
+#post {
+
+  padding-right: 15px;
+  opacity: 0.8;
+
+}
+#apps {
+
+  height: 60%;
+  padding-right: 15px;
+  /* width: 100%; */
+  opacity: 0.8;
+
 }
 
 #sign-in-btn {
@@ -212,9 +231,11 @@ body {
 }
 
 #left-nav {
-  width: 5%;
   display: flex;
-  align-items: flex-end;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  width: 9%;
 }
 
 #notice-container {
