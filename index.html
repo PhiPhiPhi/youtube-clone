@@ -27,7 +27,7 @@
             <span id="country">NL</span>
           </a>
         </div>
-        <form action="" id="search">
+        <form action="#" id="search">
           <div id="search-container">
             <input
               type="text"
@@ -38,7 +38,7 @@
           </div>
           <span id="separator"></span>
           <button id="search-btn">
-            <a href="#"><i class="material-icons">search</i></a>
+            <i class="material-icons">search</i>
           </button>
         </form>
 
@@ -75,7 +75,6 @@
             <iframe
               id="main_frame"
               src="https://www.youtube.com/embed/V74l_zS1x8E"
-              frameborder="0"
               allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
               allowfullscreen
             ></iframe>
@@ -93,7 +92,8 @@
                     <img
                       id="channel_msize_logo"
                       src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k="
-                    />
+                      alt="logo"
+                      />
                   </div>
                   <div id="video_channel_info_left">
                     <p id="video_channel_name">The Odin Project</p>
@@ -155,9 +155,9 @@
           >
             <!-- Main video description -->
             <article id="video_description_main">
-              <p id="video_description_title">
+              <h6 id="video_description_title">
                 Published on Feb 27, 2014
-              </p>
+              </h6>
               <div id="video_description_info">
                 <p>
                   How do you contribute to open source? In this video, I'll
@@ -206,7 +206,7 @@
                     value="on"
                     id="autoplay-input"
                   />
-                  <label for="autoplay-checkbox" id="autoplay-checkbox">
+                  <label id="autoplay-checkbox">
                     <span id="checked_icon_container">
                       <span id="checked_icon"></span>
                     </span>
@@ -217,259 +217,148 @@
               </div>
             </div>
           </div>
+          
+          <div class="suggested_vid_container next_video">
+            <img
+            class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802"
+              alt="thumbnail"
+            />
 
-          <div id="suggested_vid_container" class="next_video">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/mENDYhfxH-o"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen;
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
-
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 Contributing to open source part II: The Real Way
               </p>
-              <p id="suggested_vid_channel">The Odin Project</p>
-              <p id="suggested_vid_views">29,985 views</p>
+              <p class="suggested_vid_channel">The Odin Project</p>
+              <p class="suggested_vid_views">29,985 views</p>
             </div>
           </div>
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/YJZCUhxNCv8"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+              alt="thumbnail"
+            />
 
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 Contributing to open source part II: The Real Way
               </p>
-              <p id="suggested_vid_channel">The Odin Project</p>
-              <p id="suggested_vid_views">29,985 views</p>
+              <p class="suggested_vid_channel">The Odin Project</p>
+              <p class="suggested_vid_views">29,985 views</p>
             </div>
           </div>
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/cwDqjmSmtMQ"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/94ce5195858269ff0184aa735ee160f562dafac4"
+              alt="thumbnail"
+            />
 
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 Contributing to open source part II: The Real Way
               </p>
-              <p id="suggested_vid_channel">The Odin Project</p>
-              <p id="suggested_vid_views">29,985 views</p>
+              <p class="suggested_vid_channel">The Odin Project</p>
+              <p class="suggested_vid_views">29,985 views</p>
             </div>
           </div>
+          
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/42fcf704757c206b21126f9ef6c413eff28de822"
+              alt="thumbnail"
+            />
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/7YcW25PHnAA"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
-
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 REST API concepts and examples
               </p>
-              <p id="suggested_vid_channel">WebConcepts</p>
-              <p id="suggested_vid_views">3,580,484 views</p>
+              <p class="suggested_vid_channel">WebConcepts</p>
+              <p class="suggested_vid_views">3,580,484 views</p>
             </div>
           </div>
+          
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97"
+              alt="thumbnail"
+            />
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/UEb1cvZG3GU"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
-
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 GitHub - Why Microsoft Paid $7.5B for the Future of Software!
               </p>
-              <p id="suggested_vid_channel">Valuetainment</p>
-              <p id="suggested_vid_views">444,634 views</p>
+              <p class="suggested_vid_channel">Valuetainment</p>
+              <p class="suggested_vid_views">444,634 views</p>
             </div>
           </div>
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/Bb0HnaYNUx4"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/e551ad6b2fda543caa6fbd78c98ec95c1f1d0aff"
+              alt="thumbnail"
+            />
 
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 How to create a 3D Terrain with Google Maps and height
               </p>
-              <p id="suggested_vid_channel">Orange Box Ceo</p>
-              <p id="suggested_vid_views">6,269,391 views</p>
+              <p class="suggested_vid_channel">Orange Box Ceo</p>
+              <p class="suggested_vid_views">6,269,391 views</p>
             </div>
           </div>
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/YRhxdVk_sIs"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/df21e12d7260fba2247c4dd328453a98929270e9"
+              alt="thumbnail"
+            />
 
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 Convolutional Neural Networks (CNNs) explained
               </p>
-              <p id="suggested_vid_channel">deeplizard</p>
-              <p id="suggested_vid_views">239,752 views</p>
+              <p class="suggested_vid_channel">deeplizard</p>
+              <p class="suggested_vid_views">239,752 views</p>
             </div>
           </div>
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/l0QGLMwR-lY"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/0425d088770dd5fbb04c5830b5d45ceb7f87eb22"
+              alt="thumbnail"
+            />
 
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 Top 10 Linux Job Interview Questions
               </p>
-              <p id="suggested_vid_channel">tutoriaLinux</p>
-              <p id="suggested_vid_views">1,236,003 views</p>
+              <p class="suggested_vid_channel">tutoriaLinux</p>
+              <p class="suggested_vid_views">1,236,003 views</p>
             </div>
           </div>
 
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/ciNHn38EyRc"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
+          <div class="suggested_vid_container">
+            <img
+            class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/87ad6fdeaef86aa051f826e3006c068b60e06de9"
+              alt="thumbnail"
+            />
 
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
                 Running an SQL Injection Attack - Computerphile
               </p>
-              <p id="suggested_vid_channel">Computerphile</p>
-              <p id="suggested_vid_views">2,217,477 views</p>
-            </div>
-          </div>
-
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/OZ_ieeuwrCA"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
-
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
-                How to prepare for product based companies??
-              </p>
-              <p id="suggested_vid_channel">
-                Gate Lectures by Ravindrababu Ravula
-              </p>
-              <p id="suggested_vid_views">291,215 views</p>
-            </div>
-          </div>
-
-          <div id="suggested_vid_container">
-            <iframe
-              id="suggested_vid_frame"
-              src="https://www.youtube.com/embed/UoT2oava9ns"
-              frameborder="0"
-              autoplay="0"
-              ;
-              controls="0"
-              ;
-              allowfullscreen
-              showinfo="{false};"
-              modestbranding="{true}"
-            ></iframe>
-
-            <div id="suggested_vid_desc">
-              <p id="suggested_vid_title">
-                Visual Basic .Net : Search in Access Database
-              </p>
-              <p id="suggested_vid_channel">iBasskung</p>
-              <p id="suggested_vid_views">6,047,577 views</p>
+              <p class="suggested_vid_channel">Computerphile</p>
+              <p class="suggested_vid_views">2,217,477 views</p>
             </div>
           </div>
         </aside>
