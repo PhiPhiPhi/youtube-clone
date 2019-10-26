@@ -46,6 +46,7 @@ Edmund Kpodogui - ekkpodogui@gmail.com
 Philippe Odoubadé - philippejide@outlook.com
 
 Project Link: [https://github.com/dannkkie/youtube-clone.git](https://github.com/dannkkie/youtube-clone.git)
+Live Version : [https://dannkkie.github.io/youtube-clone/]
 
 <!-- ACKNOWLEDGEMENTS -->
 
