@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+
+    <title>Youtube clone</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navigation bar -->
+      <nav class="nav-bar">
+        <div id="logo-group">
+          <a href="#"><i class="material-icons">menu</i></a>
+          <a href="#">
+            <img id="yt_logo" src="img/yt_logo.png" alt="Youtube Logo" />
+            <span id="country">NL</span>
+          </a>
+        </div>
+        <form action="#" id="search">
+          <div id="search-container">
+            <input
+              type="text"
+              name="search"
+              id="search-input"
+              placeholder="Search"
+            />
+          </div>
+          <span id="separator"></span>
+          <button id="search-btn">
+            <i class="material-icons">search</i>
+          </button>
+        </form>
+
+        <div id="left-nav">
+          <img src="img/grid_view.png" alt="grid-view" id="apps" />
+          <img src="img/video_call.png" alt="video-call" id="post" />
+          <img src="img/notification.png" alt="notification" id="notif" />
+          <button type="submit" id="sign-in-btn">Sign in</button>
+        </div>
+      </nav>
+
+      <!-- Notice Container -->
+      <div id="notice-container">
+        <div id="notice-header">
+          <div id="notice-left">
+            <span id="user-icon"></span>
+            <p>Choose your language.</p>
+          </div>
+
+          <span id="close-icon"></span>
+        </div>
+        <div id="notice-footer">
+          <p>
+            You're viewing YouTube in <span id="language"> English (US).</span>
+            <a>You can change this preference below.</a>
+          </p>
+          <a id="learn_more" href="#">Learn more</a>
+        </div>
+      </div>
+
+      <!-- Main Conatiner -->
+      <main id="main_content">
+        <!-- Main video frame -->
+        <div id="content">
+          <div id="main_video">
+            <iframe
+              id="main_frame"
+              src="https://www.youtube.com/embed/V74l_zS1x8E"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen
+            ></iframe>
+          </div>
+
+          <!-- Main video title and statistics -->
+          <div id="video_actions" class="video_feature_box">
+            <div id="video_actions_main">
+              <p id="video_main_title">
+                Contributing to Open Source Part I: The Easy Way
+              </p>
+              <div id="video_main_info">
+                <div id="video_channel_info">
+                  <div id="channel_logo">
+                    <img
+                      id="channel_msize_logo"
+                      src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAMCAgUCCAMNAwMEAwkEBQgFBQQQBQoHBxAIDAYMDAsKCwoNDhIQDQ4RDgsLEBYJERMUFQwVCA8XGBYUDhELDAoBAwQEBgUGCgYGCBQNCwsUExQODhANFBANFA0NFBAODRQJCxMJDRAUCw4LFAoLFA0UFBQNCAgICAgIDgkICAgICP/AABEIADAAMAMBEQACEQEDEQH/xAAaAAEAAwADAAAAAAAAAAAAAAAABAUHAQIG/8QAKhAAAQMDAQcDBQAAAAAAAAAAAQACAwQFEQYHEhMUITFBMjV0CFFhcbP/xAAbAQEAAgMBAQAAAAAAAAAAAAAAAgUDBAYHAf/EACkRAAEDAQUHBQAAAAAAAAAAAAABAgMEBREhMZETMzRScZLREiJDUcH/2gAMAwEAAhEDEQA/AJC8POMCAIAgCAIAgCAu4dD3WoDDFp+6Ste0OY8UUhaQR0IO71H5WylNMqXpGvavgybN/Kuhy/Ql2iDi/T11YGjJdyUoGPv6UWlmT417V8DZv5V0KNaxjCAIAgNu2L7Zb/X1+lYKi/TyQOqIqY03DYBwwMBud3PYDyuls20al08cSye29Euwy0LGnqJFe1quwJW2/bPf7HctSw0N+np4Y5eEyn4cZG6YRkZLc+T58qdp2jUx1EkbZLm/WGWhKoqJGyOajsDB1y5WBAEAQHuthfvGk/nsVpZfFx9TZpt63qSvqE961T8kfxap2txcnX8QlVb1xnaqDUCAIAgJ9ivlRpqaklts3LS0kglhl3Guw4djhwIP6IWWKV0T0exblTIm1ytX1Jmh21DqGp1VNVS3So5qWqdvzTbjWZOAPS0ADoB2C+zSvmesj1vVc1DnK9fU7NSuWEgEAQBAEAQBAEB//9k="
+                      alt="logo"
+                      />
+                  </div>
+                  <div id="video_channel_info_left">
+                    <p id="video_channel_name">The Odin Project</p>
+                    <div id="subscribe_button_container">
+                      <button type="button" id="subscribe_button">
+                        <span id="subscribe_icon"></span>
+                        <span id="subscribe_text_container">
+                          <span id="subscribe_text">Subscribe</span>
+                        </span>
+                      </button>
+                      <span id="subscribers_number">799</span>
+                    </div>
+                  </div>
+                </div>
+                <p id="video_views">50,016 views</p>
+              </div>
+            </div>
+
+            <!-- Main video actions and social icons -->
+            <div id="video_actions_footer">
+              <div id="video_actions_left">
+                <button type="button" id="add_to_container">
+                  <span
+                    id="add_to_icon"
+                    class="video_actions_footer_icon"
+                  ></span>
+                  <span id="add_to_text">Add to</span>
+                </button>
+                <button type="button" id="share_container">
+                  <span
+                    id="share_icon"
+                    class="video_actions_footer_icon"
+                  ></span>
+                  <span id="share_text">Share</span>
+                </button>
+                <button type="button" id="more_container">
+                  <span id="more_icon" class="video_actions_footer_icon"></span>
+                  <span id="more_text">More</span>
+                </button>
+              </div>
+              <div id="video_actions_right">
+                <button type="button" id="like_container">
+                  <span id="like_icon" class="video_actions_footer_icon"></span>
+                  <span id="like_text">359</span>
+                </button>
+                <button type="button" id="dislike_container">
+                  <span
+                    id="dislike_icon"
+                    class="video_actions_footer_icon"
+                  ></span>
+                  <span id="dislike_text">14</span>
+                </button>
+              </div>
+            </div>
+          </div>
+          <div
+            class="video_description video_feature_box"
+            id="video_description"
+          >
+            <!-- Main video description -->
+            <article id="video_description_main">
+              <h6 id="video_description_title">
+                Published on Feb 27, 2014
+              </h6>
+              <div id="video_description_info">
+                <p>
+                  How do you contribute to open source? In this video, I'll
+                  describe the easiest way to make a simple contribution to an
+                  open source project -- without using the command line, a text
+                  editor, "forking a repo", or even touching Git outside of
+                  Github. I'll also describe what kinds of contributions open
+                  source software projects are typically looking for. As an
+                  example, I use submitting a student solution to a web
+                  development exercise from The Odin Project, a free online
+                  curriculum for learning web development with Ruby on Rails.
+                  You can find more information about that project at
+                  http://theodinproject.com.
+                </p>
+              </div>
+            </article>
+            <div>
+              <button type="button" id="show_more_container">
+                <span id="show_more_text">show more</span>
+              </button>
+            </div>
+          </div>
+
+          <div id="comments_loading" class="video_feature_box">
+            <span id="loading_text"
+              ><span id="loading_icon"> </span> Loading...</span
+            >
+          </div>
+        </div>
+
+        <!-- Recommended videos section -->
+        <aside id="suggested-videos">
+          <div id="suggested_vid_header">
+            <p>Up next</p>
+
+            <div id="suggested_vid_header_right">
+              <div id="autoplay">
+                <p id="autoplay_text">Autoplay</p>
+                <span id="autoplay_icon"></span>
+              </div>
+              <div id="autoplay_switch">
+                <span>
+                  <input
+                    type="checkbox"
+                    checked="checked"
+                    value="on"
+                    id="autoplay-input"
+                  />
+                  <label id="autoplay-checkbox">
+                    <span id="checked_icon_container">
+                      <span id="checked_icon"></span>
+                    </span>
+                    <span id="checked_circle"></span>
+                    <span></span>
+                  </label>
+                </span>
+              </div>
+            </div>
+          </div>
+          
+          <div class="suggested_vid_container next_video">
+            <img
+            class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/6350ed47768d4be4388f5a8a2b530730b3520802"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                Contributing to open source part II: The Real Way
+              </p>
+              <p class="suggested_vid_channel">The Odin Project</p>
+              <p class="suggested_vid_views">29,985 views</p>
+            </div>
+          </div>
+
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/495e6661840ba5e59315b8d9fbd12e8f79916207"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                Contributing to open source part II: The Real Way
+              </p>
+              <p class="suggested_vid_channel">The Odin Project</p>
+              <p class="suggested_vid_views">29,985 views</p>
+            </div>
+          </div>
+
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/94ce5195858269ff0184aa735ee160f562dafac4"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                Contributing to open source part II: The Real Way
+              </p>
+              <p class="suggested_vid_channel">The Odin Project</p>
+              <p class="suggested_vid_views">29,985 views</p>
+            </div>
+          </div>
+          
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/42fcf704757c206b21126f9ef6c413eff28de822"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                REST API concepts and examples
+              </p>
+              <p class="suggested_vid_channel">WebConcepts</p>
+              <p class="suggested_vid_views">3,580,484 views</p>
+            </div>
+          </div>
+          
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/ed9683aa07170cb5421ba283d3aad8e0a3626b97"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                GitHub - Why Microsoft Paid $7.5B for the Future of Software!
+              </p>
+              <p class="suggested_vid_channel">Valuetainment</p>
+              <p class="suggested_vid_views">444,634 views</p>
+            </div>
+          </div>
+
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/e551ad6b2fda543caa6fbd78c98ec95c1f1d0aff"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                How to create a 3D Terrain with Google Maps and height
+              </p>
+              <p class="suggested_vid_channel">Orange Box Ceo</p>
+              <p class="suggested_vid_views">6,269,391 views</p>
+            </div>
+          </div>
+
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/df21e12d7260fba2247c4dd328453a98929270e9"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                Convolutional Neural Networks (CNNs) explained
+              </p>
+              <p class="suggested_vid_channel">deeplizard</p>
+              <p class="suggested_vid_views">239,752 views</p>
+            </div>
+          </div>
+
+          <div class="suggested_vid_container">
+              <img
+              class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/0425d088770dd5fbb04c5830b5d45ceb7f87eb22"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                Top 10 Linux Job Interview Questions
+              </p>
+              <p class="suggested_vid_channel">tutoriaLinux</p>
+              <p class="suggested_vid_views">1,236,003 views</p>
+            </div>
+          </div>
+
+          <div class="suggested_vid_container">
+            <img
+            class="suggested_vid_frame"
+              src="https://archive.fo/Bss88/87ad6fdeaef86aa051f826e3006c068b60e06de9"
+              alt="thumbnail"
+            />
+
+            <div class="suggested_vid_desc">
+              <p class="suggested_vid_title">
+                Running an SQL Injection Attack - Computerphile
+              </p>
+              <p class="suggested_vid_channel">Computerphile</p>
+              <p class="suggested_vid_views">2,217,477 views</p>
+            </div>
+          </div>
+        </aside>
+      </main>
+    </div>
+  </body>
+</html>
